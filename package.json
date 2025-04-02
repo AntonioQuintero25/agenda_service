@@ -1,0 +1,22 @@
+{
+  "name": "servico",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --no-warnings server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fastify/cors": "^11.0.1",
+    "fastify": "^5.2.2",
+    "postgres": "^3.4.5"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
